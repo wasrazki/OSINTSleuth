@@ -62,8 +62,8 @@ def generate():
     portscanningoutput= portscan.portscanning(domain)
     osoutput= opersys.os_fingerprint(domain) 
     dnsoutput= dnsenumeration.enumerate_record_types(domain)  
-    #subdomainoutput = subdomainenumeration.subdomain(domain)  
-    #diroutput= hiddendirectory.hidden_directory(domain)
+    subdomainoutput = subdomainenumeration.subdomain(domain)  
+    diroutput= hiddendirectory.hidden_directory(domain)
     emailoutput = emailgathering.get_email(domain)
 
     # Create a PDF instance
@@ -78,9 +78,9 @@ def generate():
     pdf.chapter_title("PORT SCANNING")
     pdf.chapter_body(portscanningoutput) 
     pdf.chapter_title("SUBDOMAIN ENUMERATION")
-    #pdf.chapter_body(subdomainoutput)
+    pdf.chapter_body(subdomainoutput)
     pdf.chapter_title("DIRECTORY ENUMERATION")
-    #pdf.chapter_body(diroutput) 
+    pdf.chapter_body(diroutput) 
     pdf.chapter_title("EMAIL GATHERING")
     pdf.chapter_body(emailoutput)
     
