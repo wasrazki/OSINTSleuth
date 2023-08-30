@@ -4,7 +4,7 @@ OSINTSleuth is a powerful OSINT (Open Source Intelligence) toolset built using P
 ![main](https://github.com/wasrazki/OSINTSleuth/assets/130136239/0e423088-cc76-4863-afd4-489aa214332c) 
 
 # Important- API KEY 
-After cloning the OsintSleuth repository, the next step is to create an account on Hunter.io and obtain an API key. Once you have your API key, you should replace the placeholder in the 'emailgathering.py' file with your newly acquired API key. This key is essential for OsintSleuth to access Hunter.io's email gathering capabilities seamlessly. 
+After cloning the OSINTSleuth repository, the next step is to create an account on Hunter.io and obtain an API key. Once you have your API key, you should replace the placeholder in the 'emailgathering.py' file with your newly acquired API key. This key is essential for OSINTSleuth to access Hunter.io's email gathering capabilities seamlessly. 
 ![apikey](https://github.com/wasrazki/OSINTSleuth/assets/130136239/9c3144e3-956d-462f-b0ae-c82536a5c8fa)
 
 
