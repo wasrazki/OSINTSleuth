@@ -27,7 +27,7 @@ def portscanning(targethost):
 
     # Convert the data to JSON
     data = json.dumps(entries, indent=4)
-    del data [0]
+    
     return(data)  
 
 """
